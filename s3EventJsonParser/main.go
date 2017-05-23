@@ -48,6 +48,21 @@ type Object struct {
 	Sequencer string `json:sequencer`
 }
 
+func jsonMarshaller() {
+	str := Event{
+		Type:      "test",
+		MessageId: "1",
+		TopicArn:  "testArn",
+	}
+	b, err := json.Marshal(str)
+	if err != nil {
+		fmt.Println("Error in marshalling of file")
+	}
+	err = ioutil.WriteFile("marshall.json", b, 0660)
+	if err != nil {
+		fmt.Println("Error in writing fileMessageId")
+	}
+}
 func main() {
 	var str Event
 	b, err := ioutil.ReadFile("test.json")
@@ -59,4 +74,5 @@ func main() {
 		fmt.Println("Error is", err)
 	}
 	fmt.Println("Value is", str.Message.Records[0].S3.Object.Etag)
+jsonMarshaller()
 }
