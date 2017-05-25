@@ -1,0 +1,34 @@
+{
+   "Type": "Notification",
+   "MessageId": "15f5907c-88bf-536f-b5da-c1e1512a2cb1",
+   "TopicArn": "arn:aws:sns:us-east-1:333957572119:LL_Alarms_Test",
+   "Subject": "Amazon S3 Notification",
+ "Message": {
+      "Records": [
+         {
+            "s3": {
+               "s3SchemaVersion": "1.0",
+               "configurationId": "SandboxTestSharad",
+               "bucket": {
+                  "name": "mdv-sandbox",
+                  "ownerIdentity": {
+                     "principalId": "A1UXHK43RQ8I3W"
+                  },
+                  "arn": "arn:aws:s3:::mdv-sandbox"
+               },
+               "object": {
+                  "key": "sharad/manifest.json",
+                  "size": 2314,
+                  "eTag": "80972b81fa0334f7b2cb45df823a2643",
+                  "sequencer": "005923D75542CA5307"
+               }
+            }
+         }
+      ]
+   },
+   "Timestamp": "2017-05-23T06:31:49.437Z",
+   "SignatureVersion": "1",
+   "Signature": "bdvlBei7hJOfIlSCb9sH5bYPKCF0g2QgF/MNTtzt9D3hkNLgwCiSxhDNLegujvu+SBGhCKAuSw9kGzTkkhjswBz/3sVFDQYwWoU2gjuBLJGgJiVErcbeHa707EJdWTUZGFFHB9N8OTfxMxD5oxGXJ78IjiP68nvrtSupTkNYaQr8CWFjvYjLgDO9eA3wIBUtFiqmB0/Wa6iU9GkybwhvU6sodyL4x/yDqJI+5WBb0r9N/PXnGFhJ58RaBngBpu/+762UsnebIfXr4unUlnauVnvjYePau1mCFEIgCbfrvfdKwSB79Z1ucLPh6CinC6zJ9L0NgrNQZ7iYDUSr//nY4A==",
+   "SigningCertURL": "https://sns.us-east-1.amazonaws.com/SimpleNotificationService-b95095beb82e8f6a046b3aafc7f4149a.pem",
+   "UnsubscribeURL": "https://sns.us-east-1.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=arn:aws:sns:us-east-1:333957572119:LL_Alarms_Test:a882984b-2098-43a6-ba3e-45ad03fd606d"
+}
