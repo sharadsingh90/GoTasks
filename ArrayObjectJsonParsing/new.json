@@ -1,0 +1,16 @@
+{ 
+"csv2csv": {"name":"csv2csv",
+         "outputFile":"data/output",
+		 "Args": {
+		"Inputfolder":"Test1",
+		"Outputfolder":"Test2",
+		 "Orders":[  "a", "b","c"]
+		}}, 
+"uuid2csv": {   "name":"uuid2csv",
+        "outputFile":"data/output",
+       "Args": {
+		"Inputfolder":"Test3",
+		"Outputfolder":"Test4",
+		 "Orders":[  "d", "e","f"]
+		}} 
+}
