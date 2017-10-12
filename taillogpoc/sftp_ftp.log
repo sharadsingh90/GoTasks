@@ -1,0 +1,10 @@
+Oct 12 13:38:59 sharadkumar-ThinkPad-E450 sudo: pam_unix(sudo:session): session opened for user root by (uid=0)
+Oct 12 13:38:60 sharadkumar-ThinkPad-E450 su[19808]: Successful su for root by root
+Oct 12 13:38:61 sharadkumar-ThinkPad-E450 su[19808]: + /dev/pts/7 root:root
+Oct 12 13:38:62 sharadkumar-ThinkPad-E450 su[19808]: pam_unix(su:session): session opened for user root by (uid=0)
+Oct 12 13:38:63 sharadkumar-ThinkPad-E450 su[19808]: pam_systemd(su:session): Cannot create session: Already running in a session
+Oct 12 13:44:32 sharadkumar-ThinkPad-E450 su[19808]: pam_unix(su:session): session closed for user root
+Oct 12 13:44:32 sharadkumar-ThinkPad-E450 sudo: pam_unix(sudo:session): session closed for user root
+Oct 12 13:45:01 sharadkumar-ThinkPad-E450 CRON[20304]: pam_unix(cron:session): session opened for user root by (uid=0)
+Oct 12 13:45:01 sharadkumar-ThinkPad-E450 CRON[20304]: pam_unix(cron:session): session closed for user root
+ram
